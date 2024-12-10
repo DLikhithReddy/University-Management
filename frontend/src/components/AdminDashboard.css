@@ -1,0 +1,81 @@
+/* AdminDashboard.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc; /* Light gray-blue for subtle professionalism */
+  }
+  
+  .admin-dashboard {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f4f7fc;
+  }
+  
+  .dashboard-title {
+    font-size: 2rem;
+    color: #2c3e50; /* Dark blue for headings */
+    margin-bottom: 1rem;
+  }
+  
+  .dashboard-description {
+    font-size: 1.2rem;
+    color: #5d6d7e; /* Medium gray-blue for description text */
+    margin-bottom: 2rem;
+  }
+  
+  .dashboard-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .action-card {
+    background: #ffffff; /* Clean white for card backgrounds */
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Softer shadow for professionalism */
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .action-card h3 {
+    font-size: 1.5rem;
+    color: #2c3e50; /* Consistent dark blue for text */
+    margin-bottom: 0.5rem;
+  }
+  
+  .action-card p {
+    font-size: 1rem;
+    color: #5d6d7e; /* Subtle gray-blue for secondary text */
+    margin-bottom: 1rem;
+  }
+  
+  .action-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #fff; /* White text for buttons */
+    background-color: #007bff; /* Bright blue for buttons */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .action-button:hover {
+    background-color: #0056b3; /* Deeper blue for hover state */
+  }
+  
+  .action-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Enhanced hover effect */
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-actions {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

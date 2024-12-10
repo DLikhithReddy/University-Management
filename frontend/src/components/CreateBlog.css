@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .create-blog-container {
+    width: 80%;
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-blog-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #34495e;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+  }
+  
+  .create-blog-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .input-field {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field:focus {
+    border-color: #2980b9;
+  }
+  
+  .section-label {
+    font-size: 1.2rem;
+    color: #34495e;
+  }
+  
+  .sections-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .quill-editor {
+    min-height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .add-section-btn,
+  .remove-section-btn {
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-section-btn:hover,
+  .remove-section-btn:hover {
+    background-color: #3498db;
+  }
+  
+  .file-upload {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .submit-btn {
+    padding: 14px 20px;
+    font-size: 1.1rem;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .submit-btn:hover {
+    background-color: #2ecc71;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .create-blog-container {
+      width: 95%;
+      padding: 1.5rem;
+    }
+  
+    .create-blog-title {
+      font-size: 2rem;
+    }
+  
+    .input-field,
+    .file-upload {
+      font-size: 0.9rem;
+    }
+  
+    .submit-btn {
+      font-size: 1rem;
+    }
+  
+    .quill-editor {
+      min-height: 150px;
+    }
+  }
+  

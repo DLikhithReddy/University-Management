@@ -1,0 +1,85 @@
+/* BlogListing.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.blog-listing-container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.blog-listing-title {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.create-blog-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.create-blog-button:hover {
+  background-color: #0056b3;
+}
+
+.blog-listing ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.blog-listing li {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.blog-listing h2 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.blog-listing p {
+  font-size: 1rem;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .blog-listing-container {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .blog-listing-title {
+    font-size: 2rem;
+  }
+
+  .create-blog-button {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .blog-listing h2 {
+    font-size: 1.2rem;
+  }
+
+  .blog-listing p {
+    font-size: 0.9rem;
+  }
+}

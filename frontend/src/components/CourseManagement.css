@@ -1,0 +1,135 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Container for the Course Management Component */
+  .course-management-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title Styling */
+  .course-management-title {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Form Section Styling */
+  .course-management-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-size: 1rem;
+    color: #34495e;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group button {
+    font-size: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #ced6e0;
+    border-radius: 8px;
+    background: #f5f7fa;
+    transition: border-color 0.3s ease, box-shadow 0.2s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+  }
+  
+  button:disabled {
+    background-color: #b1dfbb;
+    cursor: not-allowed;
+  }
+  
+  /* Divider Styling */
+  hr {
+    margin: 2rem 0;
+    border: 0;
+    height: 1px;
+    background: #e0e0e0;
+  }
+  
+  /* Course List Styling */
+  .course-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .course-list li {
+    background-color: #f8f9fa;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-list li strong {
+    font-size: 1.2rem;
+    color: #2c3e50;
+  }
+  
+  .course-list li em {
+    color: #555;
+    font-style: normal;
+  }
+  
+  .course-list li a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .course-list li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .course-management-container {
+      padding: 1.5rem;
+    }
+  
+    button {
+      padding: 0.5rem 1rem;
+    }
+  }  
